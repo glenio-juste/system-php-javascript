@@ -1,0 +1,46 @@
+<?php
+
+class Chart extends Controller
+{
+
+    function __construct()
+    {
+        parent::__construct();
+        // Auth::autentica();
+        $this->view->js = array('chart/js/chart.js');
+    }
+
+    function index()
+    {
+        $this->view->title = 'Chart';
+        $this->view->render('header');
+        $this->view->render('chart/index');
+        $this->view->render('footer');
+    }
+
+   /*  function save()
+    {
+      
+        $this->model->save();
+    }
+
+    function update()
+    {
+        $this->model->update();
+    }
+
+    function delete()
+    {
+        $this->model->delete();
+    }
+
+    function findAll()
+    {
+        $this->model->findAll();
+    }
+
+    function findById()
+    {
+        $this->model->findById();
+    } */
+}
