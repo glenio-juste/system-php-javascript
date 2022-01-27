@@ -1,6 +1,6 @@
 <?php
 // coloque a barra / no final
-define('URL', 'http://localhost/system/');
+define('URL', 'http://localhost/system-php-javascript/');
 define('LIBS', 'libs/');
 
 //conf. da conexao com o BD

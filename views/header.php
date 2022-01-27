@@ -91,10 +91,10 @@
   <header>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="javascript:;">Painel Oficina - Frotas em Manutenção</a>
-      <a class="navbar-brand" href="http://localhost/system/dashboard">Dashboard</a>
-      <a class="navbar-brand" href="http://localhost/system/pessoa">Pessoa</a>
-      <a class="navbar-brand" href="http://localhost/system/cidade">Cidade</a>
+      <a class="navbar-brand" href="javascript:;">System PHP Javascript</a>
+      <a class="navbar-brand" href="http://localhost/system-php-javascript/dashboard">Dashboard</a>
+      <a class="navbar-brand" href="http://localhost/system-php-javascript/pessoa">Pessoa</a>
+      <a class="navbar-brand" href="http://localhost/system-php-javascript/cidade">Cidade</a>
     </nav>
   </header>
 
